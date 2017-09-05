@@ -1,11 +1,9 @@
-# Data-structures-and-algorithms-
-# Part of the Odin Project curriculum 
+# Data structures and algorithms
 
-#Binary Tree
-![Image Hover Text](/tree.png)
+Part of the "Odin Project" curriculum. 
 
-#Breadth First 
+Breadth First 
 ![Image Hover Text](/bfs.gif)
 
-#Depth First
+Depth First
 ![Image Hover Text](/dfs.gif)
