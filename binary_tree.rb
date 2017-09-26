@@ -54,7 +54,7 @@ class BinaryTree
           queue << node.left if node.left != nil 
           queue << node.right if node.right != nil 
         end 
-      end 
+    end 
     return nil
   end 
 
@@ -63,13 +63,13 @@ class BinaryTree
     stack << @root 
     until stack.empty?
       node = stack.pop
-        if node.value == answer 
+      if node.value == answer 
         return node.value 
-        else 
-          stack << node.left if node.left != nil 
-          stack << node.right if node.right != nil 
-        end 
+      else 
+        stack << node.left if node.left != nil 
+        stack << node.right if node.right != nil 
       end 
+    end 
     return nil
   end 
 
